@@ -12,7 +12,7 @@ def main():
         if not is_even(number):
             raise ValueError
 
-        print 'factorial({0}) = {1}'.format(number, factorial(number))
+        print 'factorial({}) = {}'.format(number, factorial(number))
     except ValueError:
         print 'Somente números pares inteiros são aceitos!'
         main()
