@@ -7,7 +7,7 @@ from even_factorial import factorial, is_even
 
 def main():
     try:
-        number = int(raw_input('Entre com um número inteiro: '))
+        number = int(raw_input('Entre com um número par inteiro: '))
 
         if not is_even(number):
             raise ValueError
