@@ -26,6 +26,5 @@ class EvenFactorialTestCase(unittest.TestCase):
     def test_is_even_should_return_false_with_9(self):
         self.assertFalse(is_even(9))
 
-
 if __name__ == '__main__':
     unittest.main()
