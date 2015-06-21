@@ -1,4 +1,4 @@
-even_factorial
+even-factorial
 ==============
 
 Even Factorial
